@@ -1,0 +1,10 @@
+Enter the remote host IP to scan: 89.43.3.80
+Enter the Start port number:    1
+Enter the last port number:     2021
+----------
+Protocol : tcp          SERVICE                 VERSION
+Port Open:----> 21 --   ftp             ftpd6.43.5 MikroTik router 
+Port Open:----> 22 --   ssh             sshd MikroTik RouterOS
+Port Open:----> 23 --   telnet          telnetd Linux 
+Port Open:----> 80 --   http            httpd MikroTik router config 
+Port Open:----> 2000 -- bandwidth-test  bandwidth-test server MikroTik

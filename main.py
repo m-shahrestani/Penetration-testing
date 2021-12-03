@@ -1,7 +1,6 @@
 import subprocess
 import sys
 from time import sleep
-
 import nmap
 
 
@@ -54,8 +53,8 @@ def scan_port_service():
                 if host_scan[host][i][k]['state'] == "open":
                     print('Port Open:---->', k, end=' --\t')
                     print(host_scan[host][i][k]['name'], end='\t\t')
-                    print(host_scan[host][i][k]['product'], end='')
-                    print(host_scan[host][i][k]['version'])
+                    print(host_scan[host][i][k]['version'], end=' ')
+                    print(host_scan[host][i][k]['product'])
 
 
 if __name__ == '__main__':
